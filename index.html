@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sporttio — Todo lo que necesitas para entrenar</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800;900&family=Barlow:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- WHATSAPP FLOTANTE -->
+  <a href="https://wa.me/573138151583?text=Hola%2C%20vi%20su%20cat%C3%A1logo%20y%20quiero%20informaci%C3%B3n" class="wa-float" target="_blank" aria-label="Chatear por WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.123.555 4.116 1.525 5.84L.057 23.492a.5.5 0 0 0 .614.614l5.652-1.468A11.945 11.945 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.807 9.807 0 0 1-5.031-1.385l-.36-.214-3.733.969.993-3.62-.235-.373A9.818 9.818 0 0 1 2.182 12C2.182 6.57 6.57 2.182 12 2.182S21.818 6.57 21.818 12 17.43 21.818 12 21.818z"/></svg>
+  </a>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#" class="nav-logo">
+        <img src="sporttio.png" alt="Sporttio" />
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Menú">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#catalogo">Catálogo</a></li>
+        <li><a href="#diferencial">Nosotros</a></li>
+        <li><a href="#proceso">Cómo comprar</a></li>
+        <li><a href="#testimonios">Reseñas</a></li>
+      </ul>
+      <a href="https://wa.me/573138151583?text=Hola%2C%20quiero%20hacer%20un%20pedido" class="btn-nav" target="_blank">Pedir ahora</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="hero-inner">
+      <div class="hero-text">
+        <span class="hero-tag">🏆 Todo en un solo lugar</span>
+        <h1 class="hero-headline">
+          Equípate.<br />
+          <em>Entrena.</em><br />
+          Gana.
+        </h1>
+        <p class="hero-sub">Productos deportivos para box, tenis, airsoft y más — a precios que sí tienen sentido.</p>
+        <div class="hero-ctas">
+          <a href="#catalogo" class="btn-primary">Ver catálogo</a>
+          <a href="https://wa.me/573138151583?text=Hola%2C%20quiero%20informaci%C3%B3n%20de%20productos" class="btn-ghost" target="_blank">Hablar con un asesor</a>
+        </div>
+        <div class="hero-badges">
+          <div class="badge"><span>📦</span>Envío a todo Colombia</div>
+          <div class="badge"><span>✅</span>Productos originales</div>
+          <div class="badge"><span>💬</span>Atención directa</div>
+        </div>
+      </div>
+      <div class="hero-grid">
+        <div class="hg-item hg-main">
+          <img src="1.png" alt="Producto estrella" />
+          <div class="hg-label">Más vendido</div>
+        </div>
+        <div class="hg-col">
+          <div class="hg-item">
+            <img src="2.png" alt="Producto 2" />
+          </div>
+          <div class="hg-item">
+            <img src="3.png" alt="Producto 3" />
+          </div>
+        </div>
+        <div class="hg-col hg-col-sm">
+          <div class="hg-item">
+            <img src="4.png" alt="Producto 4" />
+          </div>
+          <div class="hg-item hg-accent">
+            <span class="hg-number">+100</span>
+            <span class="hg-desc">referencias disponibles</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Desliza</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- DIFERENCIAL -->
+  <section class="diferencial" id="diferencial">
+    <div class="container">
+      <div class="section-label">Por qué Sporttio</div>
+      <h2 class="section-title">Variedad real.<br />Precios honestos.</h2>
+      <div class="diff-grid">
+        <div class="diff-card diff-card--large">
+          <div class="diff-icon">🎯</div>
+          <h3>Todo lo que necesitas</h3>
+          <p>Box, tenis, airsoft, fitness y más. No tienes que buscar en cinco tiendas distintas. Aquí está todo.</p>
+        </div>
+        <div class="diff-card">
+          <div class="diff-icon">💰</div>
+          <h3>Precios accesibles</h3>
+          <p>Pensamos en quienes cuidan cada peso. Calidad real sin pagar de más.</p>
+        </div>
+        <div class="diff-card">
+          <div class="diff-icon">⚡</div>
+          <h3>Atención directa</h3>
+          <p>Sin bots, sin formularios. Hablas directamente con nosotros por WhatsApp.</p>
+        </div>
+        <div class="diff-card">
+          <div class="diff-icon">🚚</div>
+          <h3>Envío nacional</h3>
+          <p>Hacemos llegar tu pedido a cualquier rincón de Colombia.</p>
+        </div>
+        <div class="diff-stat">
+          <span class="stat-num">+100</span>
+          <span class="stat-label">Productos disponibles</span>
+        </div>
+        <div class="diff-stat">
+          <span class="stat-num">4.8★</span>
+          <span class="stat-label">Calificación promedio</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CATÁLOGO -->
+  <section class="catalogo" id="catalogo">
+    <div class="container">
+      <div class="section-label">Catálogo</div>
+      <h2 class="section-title">Nuestros productos</h2>
+      <p class="section-sub">Selección de los más populares. Escríbenos para ver todo el inventario.</p>
+      <div class="catalog-grid">
+
+        <div class="prod-card">
+          <div class="prod-img"><img src="1.png" alt="Producto 1" loading="lazy" /></div>
+          <div class="prod-info">
+            <span class="prod-cat">Box</span>
+            <h3>Guantes de box</h3>
+            <p>Protección y agarre profesional para entrenamiento intenso.</p>
+            <a href="https://wa.me/573138151583?text=Hola%2C%20me%20interesan%20los%20guantes%20de%20box" class="prod-cta" target="_blank">Preguntar precio →</a>
+          </div>
+        </div>
+
+        <div class="prod-card">
+          <div class="prod-img"><img src="2.png" alt="Producto 2" loading="lazy" /></div>
+          <div class="prod-info">
+            <span class="prod-cat">Tenis</span>
+            <h3>Raqueta profesional</h3>
+            <p>Ligera y resistente. Para jugadores que van en serio.</p>
+            <a href="https://wa.me/573138151583?text=Hola%2C%20me%20interesa%20la%20raqueta" class="prod-cta" target="_blank">Preguntar precio →</a>
+          </div>
+        </div>
+
+        <div class="prod-card">
+          <div class="prod-img"><img src="3.png" alt="Producto 3" loading="lazy" /></div>
+          <div class="prod-info">
+            <span class="prod-cat">Airsoft</span>
+            <h3>Rifle airsoft</h3>
+            <p>Réplica de alta precisión para partidas tácticas.</p>
+            <a href="https://wa.me/573138151583?text=Hola%2C%20quiero%20info%20del%20rifle%20airsoft" class="prod-cta" target="_blank">Preguntar precio →</a>
+          </div>
+        </div>
+
+        <div class="prod-card prod-card--featured">
+          <div class="prod-badge">Popular</div>
+          <div class="prod-img"><img src="4.png" alt="Producto 4" loading="lazy" /></div>
+          <div class="prod-info">
+            <span class="prod-cat">Fitness</span>
+            <h3>Mancuernas ajustables</h3>
+            <p>El complemento ideal para tu rutina en casa o en el gym.</p>
+            <a href="https://wa.me/573138151583?text=Hola%2C%20me%20interesan%20las%20mancuernas" class="prod-cta" target="_blank">Preguntar precio →</a>
+          </div>
+        </div>
+
+        <div class="prod-card">
+          <div class="prod-img"><img src="5.png" alt="Producto 5" loading="lazy" /></div>
+          <div class="prod-info">
+            <span class="prod-cat">Box</span>
+            <h3>Casco de box</h3>
+            <p>Protección completa para sparring y competencia.</p>
+            <a href="https://wa.me/573138151583?text=Hola%2C%20quiero%20info%20del%20casco%20de%20box" class="prod-cta" target="_blank">Preguntar precio →</a>
+          </div>
+        </div>
+
+        <div class="prod-card">
+          <div class="prod-img"><img src="6.png" alt="Producto 6" loading="lazy" /></div>
+          <div class="prod-info">
+            <span class="prod-cat">Tenis</span>
+            <h3>Pelotas de tenis x3</h3>
+            <p>Presión estándar, duran más y rebotan mejor.</p>
+            <a href="https://wa.me/573138151583?text=Hola%2C%20quiero%20pelotas%20de%20tenis" class="prod-cta" target="_blank">Preguntar precio →</a>
+          </div>
+        </div>
+
+        <div class="prod-card">
+          <div class="prod-img"><img src="7.png" alt="Producto 7" loading="lazy" /></div>
+          <div class="prod-info">
+            <span class="prod-cat">Airsoft</span>
+            <h3>Casco táctico</h3>
+            <p>Protección y estética táctica para partidas airsoft.</p>
+            <a href="https://wa.me/573138151583?text=Hola%2C%20me%20interesa%20el%20casco%20t%C3%A1ctico" class="prod-cta" target="_blank">Preguntar precio →</a>
+          </div>
+        </div>
+
+        <div class="prod-card">
+          <div class="prod-img"><img src="8.png" alt="Producto 8" loading="lazy" /></div>
+          <div class="prod-info">
+            <span class="prod-cat">Fitness</span>
+            <h3>Banda de resistencia</h3>
+            <p>Pack de 3 niveles. Ideal para movilidad y fuerza.</p>
+            <a href="https://wa.me/573138151583?text=Hola%2C%20quiero%20las%20bandas%20de%20resistencia" class="prod-cta" target="_blank">Preguntar precio →</a>
+          </div>
+        </div>
+
+        <div class="prod-card">
+          <div class="prod-img"><img src="9.png" alt="Producto 9" loading="lazy" /></div>
+          <div class="prod-info">
+            <span class="prod-cat">Box</span>
+            <h3>Vendas de box</h3>
+            <p>Protección para muñecas, 4.5 metros, elásticas.</p>
+            <a href="https://wa.me/573138151583?text=Hola%2C%20quiero%20vendas%20de%20box" class="prod-cta" target="_blank">Preguntar precio →</a>
+          </div>
+        </div>
+
+        <div class="prod-card prod-card--cta">
+          <div class="prod-img"><img src="10.png" alt="Producto 10" loading="lazy" /></div>
+          <div class="prod-info">
+            <span class="prod-cat">Multideporte</span>
+            <h3>Kit entrenamiento</h3>
+            <p>Todo lo básico para empezar con el pie derecho.</p>
+            <a href="https://wa.me/573138151583?text=Hola%2C%20quiero%20info%20del%20kit%20de%20entrenamiento" class="prod-cta" target="_blank">Preguntar precio →</a>
+          </div>
+        </div>
+
+      </div>
+      <div class="catalog-footer">
+        <p>¿No encuentras lo que buscas? Tenemos más de 100 referencias.</p>
+        <a href="https://wa.me/573138151583?text=Hola%2C%20busco%20un%20producto%20que%20no%20veo%20en%20el%20cat%C3%A1logo" class="btn-primary" target="_blank">Ver inventario completo</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESO -->
+  <section class="proceso" id="proceso">
+    <div class="container">
+      <div class="section-label">Cómo comprar</div>
+      <h2 class="section-title">Fácil y directo</h2>
+      <div class="steps">
+        <div class="step">
+          <div class="step-num">01</div>
+          <div class="step-content">
+            <h3>Elige tu producto</h3>
+            <p>Navega el catálogo o pregúntanos directamente qué necesitas.</p>
+          </div>
+        </div>
+        <div class="step-arrow">→</div>
+        <div class="step">
+          <div class="step-num">02</div>
+          <div class="step-content">
+            <h3>Escríbenos</h3>
+            <p>Te damos precio, disponibilidad y tiempo de entrega al instante.</p>
+          </div>
+        </div>
+        <div class="step-arrow">→</div>
+        <div class="step">
+          <div class="step-num">03</div>
+          <div class="step-content">
+            <h3>Confirmas y pagás</h3>
+            <p>Proceso simple, sin complicaciones. Varias formas de pago.</p>
+          </div>
+        </div>
+        <div class="step-arrow">→</div>
+        <div class="step">
+          <div class="step-num">04</div>
+          <div class="step-content">
+            <h3>Recibís tu pedido</h3>
+            <p>Enviamos a toda Colombia. Te damos seguimiento en tiempo real.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BENEFICIOS / STATS -->
+  <section class="beneficios" id="beneficios">
+    <div class="container">
+      <div class="ben-grid">
+        <div class="ben-text">
+          <div class="section-label">Resultados</div>
+          <h2 class="section-title">Deporte para todos.<br />Sin excusas.</h2>
+          <p>En Sporttio creemos que equiparte bien no debería ser un privilegio. Por eso trabajamos para que siempre encuentres lo que necesitas a un precio justo.</p>
+          <a href="https://wa.me/573138151583?text=Hola%2C%20quiero%20conocer%20m%C3%A1s%20de%20Sporttio" class="btn-primary" target="_blank">Conoce más</a>
+        </div>
+        <div class="ben-stats">
+          <div class="ben-stat">
+            <span class="ben-num">+500</span>
+            <span class="ben-label">Clientes satisfechos</span>
+          </div>
+          <div class="ben-stat">
+            <span class="ben-num">+100</span>
+            <span class="ben-label">Productos disponibles</span>
+          </div>
+          <div class="ben-stat">
+            <span class="ben-num">4+</span>
+            <span class="ben-label">Categorías deportivas</span>
+          </div>
+          <div class="ben-stat ben-stat--accent">
+            <span class="ben-num">100%</span>
+            <span class="ben-label">Atención personalizada</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIOS -->
+  <section class="testimonios" id="testimonios">
+    <div class="container">
+      <div class="section-label">Lo que dicen</div>
+      <h2 class="section-title">Gente real.<br />Resultados reales.</h2>
+      <div class="testi-grid">
+        <div class="testi-card">
+          <div class="testi-stars">★★★★★</div>
+          <p>"Llegaron los guantes súper rápido y con muy buena calidad. La atención por WhatsApp fue excelente, me resolvieron todo en minutos."</p>
+          <div class="testi-author">
+            <div class="testi-avatar">JR</div>
+            <div>
+              <strong>Julián R.</strong>
+              <span>Medellín · Box</span>
+            </div>
+          </div>
+        </div>
+        <div class="testi-card testi-card--featured">
+          <div class="testi-stars">★★★★★</div>
+          <p>"Buscaba una raqueta buena sin gastar un dineral. La encontré aquí y quedé encantada. Ya le recomendé Sporttio a todo el club."</p>
+          <div class="testi-author">
+            <div class="testi-avatar">LC</div>
+            <div>
+              <strong>Laura C.</strong>
+              <span>Bogotá · Tenis</span>
+            </div>
+          </div>
+        </div>
+        <div class="testi-card">
+          <div class="testi-stars">★★★★★</div>
+          <p>"Pedí un kit completo de airsoft y todo llegó en perfectas condiciones. El precio fue lo mejor, imposible conseguirlo más barato."</p>
+          <div class="testi-author">
+            <div class="testi-avatar">DM</div>
+            <div>
+              <strong>Diego M.</strong>
+              <span>Cali · Airsoft</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA FINAL -->
+  <section class="cta-final">
+    <div class="container">
+      <div class="ctaf-inner">
+        <span class="ctaf-tag">🔥 ¿Listo para empezar?</span>
+        <h2>Tu próximo equipo<br /><em>te está esperando</em></h2>
+        <p>No sigas buscando. Todo lo que necesitas para entrenar, competir o simplemente moverte, está aquí.</p>
+        <a href="https://wa.me/573138151583?text=Hola%2C%20quiero%20hacer%20un%20pedido%20en%20Sporttio" class="btn-big" target="_blank">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.123.555 4.116 1.525 5.84L.057 23.492a.5.5 0 0 0 .614.614l5.652-1.468A11.945 11.945 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.807 9.807 0 0 1-5.031-1.385l-.36-.214-3.733.969.993-3.62-.235-.373A9.818 9.818 0 0 1 2.182 12C2.182 6.57 6.57 2.182 12 2.182S21.818 6.57 21.818 12 17.43 21.818 12 21.818z"/></svg>
+          Pedir por WhatsApp
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="sporttio.png" alt="Sporttio" class="footer-logo" />
+          <p>Los productos deportivos que necesitas en un solo lugar.</p>
+          <div class="footer-socials">
+            <a href="https://www.instagram.com/sporttio.oficial" target="_blank" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            </a>
+            <a href="https://wa.me/573138151583" target="_blank" aria-label="WhatsApp">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.123.555 4.116 1.525 5.84L.057 23.492a.5.5 0 0 0 .614.614l5.652-1.468A11.945 11.945 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.807 9.807 0 0 1-5.031-1.385l-.36-.214-3.733.969.993-3.62-.235-.373A9.818 9.818 0 0 1 2.182 12C2.182 6.57 6.57 2.182 12 2.182S21.818 6.57 21.818 12 17.43 21.818 12 21.818z"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-nav">
+          <h4>Navegación</h4>
+          <ul>
+            <li><a href="#catalogo">Catálogo</a></li>
+            <li><a href="#diferencial">Nosotros</a></li>
+            <li><a href="#proceso">Cómo comprar</a></li>
+            <li><a href="#testimonios">Reseñas</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h4>Contacto</h4>
+          <ul>
+            <li><a href="https://wa.me/573138151583" target="_blank">+57 313 815 1583</a></li>
+            <li><a href="https://www.instagram.com/sporttio.oficial" target="_blank">@sporttio.oficial</a></li>
+            <li><span>Calle 195 #21-48</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 Sporttio. Todos los derechos reservados.</p>
+        <div class="footer-legal">
+          <a href="#">Política de privacidad</a>
+          <a href="#">Términos de uso</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
